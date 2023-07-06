@@ -51,7 +51,7 @@ export default function EmployeeList(){
   ]
 
   const options = {
-    selectableRows: false,
+    selectableRows: 'none',
     download: false,
     print: false,
     viewColumns: false,
