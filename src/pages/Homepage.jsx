@@ -101,8 +101,10 @@ export default function Homepage(){
       zipCode: zipCode.value
     }]
 
-    //inputVerification();
+    //dispatch values to redux store
     dispatch(registerFormValues(formValues));
+
+    //open modal once the values have been dispatched
     openModal();
   }
 

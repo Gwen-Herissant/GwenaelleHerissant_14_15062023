@@ -1,5 +1,10 @@
 /**
  * Generates reusable input component for form
+ * @param {prop} htmlFor corresponding input 
+ * @param {prop} type of input 
+ * @param {prop} id of html element 
+ * @param {prop} label title
+ * @param {prop} isActive state for error 
  * @returns input
  */
 

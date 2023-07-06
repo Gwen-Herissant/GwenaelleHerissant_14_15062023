@@ -8,6 +8,7 @@ setDefaultLocale('fr');
 
 /**
  * Generates date-picker for user's starting date
+ * @param {prop} isActive state for error 
  * @returns date-picker
  */
 
