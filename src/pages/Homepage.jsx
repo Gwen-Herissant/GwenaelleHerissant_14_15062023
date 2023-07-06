@@ -94,7 +94,7 @@ export default function Homepage(){
       lastName: lastName.value,
       dateOfBirth: dateOfBirth.value,
       startDate: startDate.value,
-      department: department.value,
+      department: department.innerText,
       street: street.value,
       city: city.value,
       state: state.innerText,
