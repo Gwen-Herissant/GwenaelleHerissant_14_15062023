@@ -8,7 +8,7 @@ setDefaultLocale('fr');
 
 /**
  * Generates date-picker for user's birthdate
- * @param {prop} isActive state for error 
+ * @param {boolean} isActive state for error 
  * @returns date-picker
  */
 
